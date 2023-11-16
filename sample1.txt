@@ -1,0 +1,10 @@
+3
+ruby java php
+red blue green
+one two three
+5
+java
+two
+blue
+three
+one
