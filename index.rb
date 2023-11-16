@@ -33,7 +33,6 @@ def judge_horizontal
     row.each_with_index do |col, col_i|
       if col.nil?
         if col_i == $size - 1
-          p 'yes:38'
           return true
         end
       else
@@ -50,7 +49,6 @@ def judege_vertical
     for row in 0..$size - 1 do
       if $answers[col][row].nil?
         if row == $size - 1
-          p 'yes:55'
           return true
         end
       else
@@ -68,7 +66,6 @@ def judge_diagonal
    for i in 0..$size - 1 do
     if $answers[i][i].nil?
       if i == $size - 1
-        p 'yes:73'
         return true
       end
     else
@@ -79,7 +76,6 @@ def judge_diagonal
    for i in 0..$size - 1 do
     if $answers[i][$size - 1 - i].nil?
       if i == $size - 1
-        p 'yes:84'
         return true
       end
     else
@@ -98,7 +94,11 @@ def judge_result
   end
 end
 
+def output
+  p $result
+end
+
 input
 check_answer
 judge_result
-p $result
+output

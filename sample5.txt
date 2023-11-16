@@ -1,0 +1,26 @@
+6
+ruby java php javascript rails vue 
+red blue green black yellow white 
+one two three four five six 
+cat dog tiger lion rabbit zebra
+japan china korea america france germany
+soccer baseball basketball golf tennis swimming
+18
+dog
+javascript
+zebra
+rabbit
+lion
+vue
+yellow
+four
+tiger
+rails
+soccer
+ruby
+red
+one
+cat
+baseball 
+china
+tennis
